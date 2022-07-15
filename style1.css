@@ -88,6 +88,7 @@ header {
     width: 227px;
     height: 97px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .container span {
@@ -116,4 +117,61 @@ header {
 #items-6:hover {
     color: rgb(11, 155, 222);
     transition: 0.4s;
+}
+
+.midcontainer {
+    display: flex;
+    justify-content: center;
+}
+.midcontainer h2{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.midcontainer h2:hover {
+    background-color: aquamarine;
+    color: black;
+    border-radius: 15px;
+}
+.pr1 {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    color: aliceblue;
+    border: 2px solid white;
+    padding: 10px 10px;
+    margin: 10px 50px;
+    width: 500px;
+    height: 290px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.box p{
+    margin: 10px 20px;
+    font-size:16px ;
+}
+
+.box:hover {
+    width: 600px;
+    padding: 30px 10px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+
+}
+
+.nav_images {
+    display: flex;
+    
+}
+.img {
+   height: 10px;
 }
