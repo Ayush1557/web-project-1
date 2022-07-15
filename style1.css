@@ -18,12 +18,13 @@ li, a {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 20px 10%;
+    padding: 20px 10%;
     align-items: center;
     background-color: #24252A;
     position: sticky;
     top: 0px;
     flex-wrap: wrap;
+    transition: 0.6s;
 }
 
 .nav_links  li{
@@ -71,4 +72,48 @@ header {
 
 .nav_links:hover {
     background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+}
+.items {
+    border: 2px solid gray;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    width: 227px;
+    height: 97px;
+    border-radius: 10px;
+}
+
+.container span {
+    display: block;
+    width: 63px;
+    margin: auto;
+    font-size: 60px;
+}
+
+/* #items-1:hover */
+#items-2:hover {
+    color: aquamarine;
+    transition: 0.4s;
+
+}
+#items-3:hover {
+    color: bisque;
+}
+#items-4:hover {
+    color: red;
+    transition: 0.4s;
+}
+#items-5:hover {
+    color: yellow;
+}
+#items-6:hover {
+    color: rgb(11, 155, 222);
+    transition: 0.4s;
 }
